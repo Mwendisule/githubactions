@@ -32,4 +32,4 @@ jobs:
       - name: Greeting
         run: |
           echo "Hello Mwendisule... Great that you are exceling in your coding skills. Keep up the good work!"
-    
+    needs: test
